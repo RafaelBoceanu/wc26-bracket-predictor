@@ -1,0 +1,22 @@
+{
+  "_comment": "Round of 32 slot template, 32 entries in match order: [m1_home, m1_away, m2_home, m2_away, ...]. Slot codes: '1A'/'2A' = winner/runner-up of group A-L. '3rd_1'..'3rd_8' = the Nth best 3rd-placed team overall (ranked by points, then GD, then GF -- see group_stage.select_qualifiers). Every group's 1st and 2nd placed team appears exactly once, and 3rd_1..3rd_8 appear exactly once each, for 32 unique slots / 16 matches. This is a structurally valid placeholder bracket, not FIFA's official 2026 wallchart -- swap these slot codes for the real published draw if exact fidelity matters. Round of 16 onward is then a standard single-elimination tree: winners of matches 1&2 meet, then 3&4, and so on.",
+
+  "round_of_32_slots": [
+    "1A", "2B",
+    "1C", "2D",
+    "1E", "3rd_1",
+    "1G", "2H",
+    "1I", "2J",
+    "1K", "3rd_2",
+    "1B", "2A",
+    "1D", "3rd_3",
+    "1F", "2E",
+    "1H", "3rd_4",
+    "1J", "2I",
+    "1L", "2K",
+    "3rd_5", "2C",
+    "3rd_6", "2F",
+    "3rd_7", "2G",
+    "3rd_8", "2L"
+  ]
+}
